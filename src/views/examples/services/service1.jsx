@@ -20,6 +20,7 @@ import {
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.jsx";
+import Sidebar from "components/Navbars/sidebar.jsx";
 import SimpleFooter from "components/Footers/SimpleFooter.jsx";
 
 class IndividualTaxPreparation extends React.Component {
@@ -47,73 +48,8 @@ class IndividualTaxPreparation extends React.Component {
             <section class="section bg-secondary">
             <Container className="py-lg-md d-flex">
               <Row className="justify-content-center">
-              <Col lg="4">
-                <h4>Tax Services</h4>
-                <nav class="navbar-dark bg-primary navbar navbar-expand-lg">
-	<div class="container">
-		<a href="#pablo" class="navbar-brand">Individual Tax Preparation</a>
-		<button class="navbar-toggler" id="navbar-primary">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-	</div>
-</nav>
-<nav class="navbar-dark bg-primary mt-4 navbar navbar-expand-lg">
-	<div class="container">
-		<a href="#pablo" class="navbar-brand">Business Tax Preparation</a>
-		<button class="navbar-toggler" id="navbar-primary">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-	</div>
-</nav>
-<nav class="navbar-dark bg-primary mt-4 navbar navbar-expand-lg">
-	<div class="container">
-		<a href="#pablo" class="navbar-brand">Tax Residency Certificate</a>
-		<button class="navbar-toggler" id="navbar-primary">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-	</div>
-</nav>
-<nav class="navbar-dark bg-primary mt-4 navbar navbar-expand-lg">
-	<div class="container">
-		<a href="#pablo" class="navbar-brand">FBAR Fipng</a>
-		<button class="navbar-toggler" id="navbar-primary">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-	</div>
-</nav>
-<nav class="navbar-dark bg-primary mt-4 navbar navbar-expand-lg">
-	<div class="container">
-		<a href="#pablo" class="navbar-brand">ITIN</a>
-		<button class="navbar-toggler" id="navbar-primary">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-	</div>
-</nav>
-<nav class="navbar-dark bg-primary mt-4 navbar navbar-expand-lg">
-	<div class="container">
-		<a href="#pablo" class="navbar-brand">Payroll</a>
-		<button class="navbar-toggler" id="navbar-primary">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-	</div>
-</nav>
-<nav class="navbar-dark bg-primary mt-4 navbar navbar-expand-lg">
-	<div class="container">
-		<a href="#pablo" class="navbar-brand">Bookkeeping</a>
-		<button class="navbar-toggler" id="navbar-primary">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-	</div>
-</nav>
-<nav class="navbar-dark bg-primary mt-4 navbar navbar-expand-lg">
-	<div class="container">
-		<a href="#pablo" class="navbar-brand">EIN</a>
-		<button class="navbar-toggler" id="navbar-primary">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-	</div>
-</nav>
-
+              <Col lg="4"> 
+              <Sidebar /> 
               </Col>
                   <Col lg="8">
               <div class="row-grid justify-content-left row"><div class="text-center col-lg-12"><h3 class="display-3">Individual Tax Preparation Services </h3><h4>E-File your 2017 Individual Tax return by APR-17-2018 Just @$99!</h4><p class="lead">At Online Virtual Tax, we believe in providing a professional, convenient and simple Individual Tax Preparation Service solutions governed by IRS Rules. With virtual tax preparation, our clients can get their tax filed with no stress and anxiety.
