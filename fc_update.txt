@@ -1,0 +1,25 @@
+414357  = > adminsa
+
+
+UPDATE `candidatedetails` SET arc_confirmed_by = '423 ' WHERE arc_confirmed_by='6475' and user_id = '155744' LIMIT 1
+
+UPDATE `candidatedetails` SET arc_confirmed_by = '339 ' WHERE arc_confirmed_by='5404' and user_id = '155564' LIMIT 1
+
+UPDATE `candidatedetails` SET arc_confirmed_by = '122' WHERE arc_confirmed_by='900011' and user_id = '155600' LIMIT 1
+
+
+
+UPDATE `candidatedetails` SET arc_confirmed_by = '414357' WHERE arc_confirmed_by='423' and user_id = '155744' LIMIT 1
+
+UPDATE `candidatedetails` SET arc_confirmed_by = '414357' WHERE arc_confirmed_by='339' and user_id = '155564' LIMIT 1
+
+UPDATE `candidatedetails` SET arc_confirmed_by = '414357' WHERE arc_confirmed_by='122' and user_id = '155600' LIMIT 1
+
+
+
+UPDATE `candidatedetails` SET arc_confirmed_by = '2' WHERE arc_confirmed_by='414357' and user_id = '155744' LIMIT 1
+
+UPDATE `candidatedetails` SET arc_confirmed_by = '2' WHERE arc_confirmed_by='414357' and user_id = '155564' LIMIT 1
+UPDATE `candidatedetails` SET arc_confirmed_by = '2' WHERE arc_confirmed_by='414357' and user_id = '155564' LIMIT 1
+
+UPDATE `candidatedetails` SET arc_confirmed_by = '2' WHERE arc_confirmed_by='414357' and user_id = '155600' LIMIT 1
