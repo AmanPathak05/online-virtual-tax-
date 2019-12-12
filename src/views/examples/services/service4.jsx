@@ -20,6 +20,7 @@ import {
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.jsx";
+import Sidebar from "components/Navbars/sidebar.jsx";
 import SimpleFooter from "components/Footers/SimpleFooter.jsx";
 
 class FBARFipng extends React.Component {
@@ -47,74 +48,9 @@ class FBARFipng extends React.Component {
             <section class="section bg-secondary">
             <Container className="py-lg-md d-flex">
               <Row className="justify-content-center">
-              <Col lg="4">
-                <h4>Tax Services</h4>
-                <nav class="navbar-dark bg-primary navbar navbar-expand-lg">
-	<div class="container">
-		<a href="#pablo" class="navbar-brand">Individual Tax Preparation</a>
-		<button class="navbar-toggler" id="navbar-primary">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-	</div>
-</nav>
-<nav class="navbar-dark bg-primary mt-4 navbar navbar-expand-lg">
-	<div class="container">
-		<a href="#pablo" class="navbar-brand">Business Tax Preparation</a>
-		<button class="navbar-toggler" id="navbar-primary">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-	</div>
-</nav>
-<nav class="navbar-dark bg-primary mt-4 navbar navbar-expand-lg">
-	<div class="container">
-		<a href="#pablo" class="navbar-brand">Tax Residency Certificate</a>
-		<button class="navbar-toggler" id="navbar-primary">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-	</div>
-</nav>
-<nav class="navbar-dark bg-primary mt-4 navbar navbar-expand-lg">
-	<div class="container">
-		<a href="#pablo" class="navbar-brand">FBAR Fipng</a>
-		<button class="navbar-toggler" id="navbar-primary">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-	</div>
-</nav>
-<nav class="navbar-dark bg-primary mt-4 navbar navbar-expand-lg">
-	<div class="container">
-		<a href="#pablo" class="navbar-brand">ITIN</a>
-		<button class="navbar-toggler" id="navbar-primary">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-	</div>
-</nav>
-<nav class="navbar-dark bg-primary mt-4 navbar navbar-expand-lg">
-	<div class="container">
-		<a href="#pablo" class="navbar-brand">Payroll</a>
-		<button class="navbar-toggler" id="navbar-primary">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-	</div>
-</nav>
-<nav class="navbar-dark bg-primary mt-4 navbar navbar-expand-lg">
-	<div class="container">
-		<a href="#pablo" class="navbar-brand">Bookkeeping</a>
-		<button class="navbar-toggler" id="navbar-primary">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-	</div>
-</nav>
-<nav class="navbar-dark bg-primary mt-4 navbar navbar-expand-lg">
-	<div class="container">
-		<a href="#pablo" class="navbar-brand">EIN</a>
-		<button class="navbar-toggler" id="navbar-primary">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-	</div>
-</nav>
-
-              </Col>
+              <Col lg="4"> 
+              <Sidebar /> 
+            </Col>
                   <Col lg="8">
               <div class="row-grid justify-content-left row"><div class="text-left col-lg-12"><h3 class="display-3">FBAR Filling</h3>
               <h4>What is FBAR ?</h4>
